@@ -12,7 +12,8 @@ public class SparkWeb {
 
     public static void main(String[] args) {
         port(getPort());
-        get("/", (req, res) -> initPage(req, res));
+        get("/", (request, response) -> initPage(request, response));
+        get("/Calculos",(request, response) -> finalPage(request,response));
     }
 
     private static Object initPage(Request req, Response res) {
@@ -30,7 +31,22 @@ public class SparkWeb {
                 +"</html>";
         return paginaDatos;
     }
-
+    private static String finalPage(Request req, Response res) throws Exception {
+        String request = req.queryParams("datos");
+        String[] lista = request.split(",");
+        Calculardora calculadora = new Calculardora(lista);
+        String paginaDatos = "<DOCTYPE html"
+                + "<html>"
+                + "<title> Las operaciones son </title>"
+                + "<body>"
+                + "<h1>Resultados</h1>"
+                + "<h3>Media de la lista :</h3>"
+                + "<h3>"+ calculadora.media() + "</h3>"
+                + "<h3>Desviación Estandar de la lista: </h3>"
+                + "<h3>"  + calculadora.desviacionEstandar() + "</h3>"
+                + "</body>"
+                + "</html>";
+        return paginaDatos;    }
     static int getPort() {
         if (System.getenv("PORT") != null) {
             return Integer.parseInt(System.getenv("PORT"));
