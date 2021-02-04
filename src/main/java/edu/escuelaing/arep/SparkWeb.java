@@ -22,7 +22,7 @@ public class SparkWeb {
                 + "<title> Calculadora</title>"
                 + "<body>"
                 +"<h1>Ingrese la lista</h1>"
-                +"<form action=\"/resultado\">"
+                +"<form action=\"/Calculos\">"
                 +"<label for=\"ldatos\">Escriba la lista a operar separando los numeros por comas: </label>"
                 + "<input type=\"text\" id=\"ldatos\" name=\"ldatos\"><br><br>"
                 + "<input type=\"submit\" value=\"Submit\">"
