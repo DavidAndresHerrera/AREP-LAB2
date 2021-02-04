@@ -23,9 +23,9 @@ public class SparkWeb {
                 + "<body>"
                 +"<h1>Ingrese la lista</h1>"
                 +"<form action=\"/resultado\">"
-                +"<label for=\"lista\">Escriba la lista a operar separando los numeros por comas: </label>"
-                +"<input type=\"text\" id=\"datos\" name=\"datos\"><br><br>"
-                + "<input type=\"submit\" value=\"Operar\">"
+                +"<label for=\"ldatos\">Escriba la lista a operar separando los numeros por comas: </label>"
+                + "<input type=\"text\" id=\"ldatos\" name=\"ldatos\"><br><br>"
+                + "<input type=\"submit\" value=\"Submit\">"
                 +"</form>"
                 +"</body>"
                 +"</html>";
