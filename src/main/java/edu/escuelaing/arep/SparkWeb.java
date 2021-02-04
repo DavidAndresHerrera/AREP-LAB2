@@ -32,7 +32,7 @@ public class SparkWeb {
         return paginaDatos;
     }
     private static String finalPage(Request req, Response res) throws Exception {
-        String request = req.queryParams("datos");
+        String request = req.queryParams("ldatos");
         String[] lista = request.split(",");
         Calculardora calculadora = new Calculardora(lista);
         String paginaDatos = "<DOCTYPE html"
