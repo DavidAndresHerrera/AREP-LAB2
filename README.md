@@ -54,9 +54,9 @@ Al ingresar a la pagina, la pagina principal se debe ver asi :
 
 En este link puede encontrar la integracion continua en CircleCi
 
-> https://app.circleci.com/pipelines/github/DavidAndresHerrera/AREP-LAB2
+> [![](https://circleci.com/docs/assets/img/logos/logo-wordmark.svg)](https://app.circleci.com/pipelines/github/DavidAndresHerrera/AREP-LAB2)
 
-
+[![CircleCI](https://app.circleci.com/pipelines/github/DavidAndresHerrera/AREP-LAB2.svg?style=svg)](https://app.circleci.com/pipelines/github/DavidAndresHerrera/AREP-LAB2)
 ### Licencia
 GNU General Public License v3.0 
 
