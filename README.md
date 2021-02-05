@@ -44,7 +44,7 @@ Despues de empaquetado el programa y saber que esta corriendo de manera correcta
 
 En este link podra ver el despliegue de la aplicacion en heroku.
 
-> https://still-wave-10354.herokuapp.com/
+> [![Deployed to Heroku](https://www.herokucdn.com/deploy/button.png)](https://still-wave-10354.herokuapp.com/)
 
 Al ingresar a la pagina, la pagina principal se debe ver asi :
 
@@ -54,9 +54,9 @@ Al ingresar a la pagina, la pagina principal se debe ver asi :
 
 En este link puede encontrar la integracion continua en CircleCi
 
-> [![](https://circleci.com/docs/assets/img/logos/logo-wordmark.svg)](https://app.circleci.com/pipelines/github/DavidAndresHerrera/AREP-LAB2)
+>  [CircleCI](https://circleci.com/) : Integración contínua [![CircleCI](https://circleci.com/gh/circleci/circleci-docs.svg?style=svg)](https://app.circleci.com/pipelines/github/DavidAndresHerrera/AREP-LAB2)
 
-[![CircleCI](https://app.circleci.com/pipelines/github/DavidAndresHerrera/AREP-LAB2.svg?style=svg)](https://app.circleci.com/pipelines/github/DavidAndresHerrera/AREP-LAB2)
+
 ### Licencia
 GNU General Public License v3.0 
 
